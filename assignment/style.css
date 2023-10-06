@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    font-size: 18px;
+    color:white;
+}
+
+a:link { /*Link styles*/
+    color:white;
+    text-decoration:none;
+}
+  
+a:visited {
+    color: white;
+    text-decoration:none;
+}
+  
+a:hover {
+    color:#555555;
+    text-decoration:none;
+}
+  
+a:active {
+    color: white;
+    text-decoration:none;
+}
+
+h1 {
+    text-align:center;
+}
+
+.container { /* All the side content here, except website title*/
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    width:100%;
+    background-color: black
+}
+
+.wrapper {
+    display: flex;
+    align-self:center;
+    align-items:flex-end;
+    justify-content:center;
+    flex-direction:row;
+    width:70%;
+    height:500px;
+    background-color: black;
+    left:0;
+}
+
+.number-of-teams { /**Styling for how many teams there are**/
+    background-color:black;
+    width:auto;
+    padding:5px;
+    margin-top:10px;
+    align-self: center;
+    justify-content:center;
+}
+
+th, td {
+    padding:16px;
+}
+
