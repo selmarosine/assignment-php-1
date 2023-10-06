@@ -4,7 +4,7 @@ require __DIR__ . '/header.php'; //Linked to the html head where the css is conn
 
 <body>
 
-    <h1> Welcome</h1>
+    <h1> Some teams </h1>
 
     <div class="container">
 
